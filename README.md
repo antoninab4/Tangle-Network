@@ -127,7 +127,7 @@ $HOME/.tangle/node-key
 
 создание кошелька
 ```
-https://chrome.google.com/webstore/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn/related
+https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd
 ```
 
 Далее, Переходим на сайт и для начала создаем кошелек stash https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.tangle.tools&ref=blog.webb.tools#/staking
