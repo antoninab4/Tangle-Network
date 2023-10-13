@@ -125,6 +125,10 @@ $HOME/.tangle/node-key
  $HOME/.tangle/data/chains/tangle-standalone-testnet/keystore/
 ``
 
+создание кошелька
+```
+https://chrome.google.com/webstore/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn/related
+```
 
 Далее, Переходим на сайт и для начала создаем кошелек stash https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.tangle.tools&ref=blog.webb.tools#/staking
 
