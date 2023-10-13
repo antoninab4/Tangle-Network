@@ -102,15 +102,39 @@ https://telemetry.polkadot.io/#list/0xea63e6ac7da8699520af7fb540470d63e48eccb33f
 
 # Ожидаем пока наша нода засинхронизируется и продолжаем
 
-# SOON !!!!
+После того как нода синхронизировалась вытаскиваем ключ из нашей ноды введя команду
+
+```
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
+```
 
 
+``
+Если получили подобный результат, то все замечательно {"jsonrpc":"2.0","result":"0xa0very0long0hex0string","id":1} - копируем ключ (выделено жирным) он нам понадобится в ближайшее время
+``
+
+# ВАЖНО - сохраняем ключи расположенные в 
+
+``
+$HOME/.tangle/node-key 
+``
+
+и
+
+``
+ $HOME/.tangle/data/chains/tangle-standalone-testnet/keystore/
+``
 
 
+Далее, Переходим на сайт и для начала создаем кошелек stash https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.tangle.tools&ref=blog.webb.tools#/staking
 
+Для stash настраиваем Set on-chain Identity для идентификации 
 
+Создаем валидатора. Для этого выбираем Network - Staking - Accounts - Validator
 
+Далее вставляем наш ключ полученный с ноды валидатора, выбираем процент комиссионного вознаграждения
 
+Как только освободится место среди валидаторов, вы появитесь во вкладке Staking Overview, а пока можете себя найти на вкладке Waiting
 
 
 
